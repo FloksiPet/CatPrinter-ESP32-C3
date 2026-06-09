@@ -1,0 +1,29 @@
+# Arduino IDE
+*.ino.c
+*.ino.cpp
+*.ino.cpp.o
+*.ino.elf
+*.ino.with_bootloader.bin
+*.ino.with_bootloader.elf
+*.pde.c
+*.pde.cpp
+*.o
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+build/
+dist/
+*.o
+*.a
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
